@@ -19,19 +19,19 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 ## Setup
 
-The notebook requires Python 3.6 along with ####Jupyter, ####PyTorch, ####Numpy, ####Matplotlib, and the ####Unity ML-Agents Toolkit.
+The notebook requires Python 3.6 along with **Jupyter**, **PyTorch**, **Numpy**, **Matplotlib**, and the **Unity ML-Agents Toolkit**.
 
 Assuming you have the Anaconda package manager installed, a suitable environment (here named navigation) can be created by running the following command:
 
-**conda create -n navigation python=3.6 jupyter pytorch matplotlib
+*conda create -n Navigation python=3.6 jupyter pytorch matplotlib*
 
 Activate the environment and download the Unity ML-Agents Toolkit. Assuming the toolkit has been downloaded to the folder ml-agents, run the following command:
 
-**pip install ml-agents/python
+*pip install ml-agents/python*
 
 Now, start a jupyter server in the DRLND-navigation repository's base directory:
 
-**jupyter notebook
+*jupyter notebook*
 
 Open the Navigation.ipynb notebook and follow the instructions.
 
