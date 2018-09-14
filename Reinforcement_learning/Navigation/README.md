@@ -16,7 +16,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 
 
-#### Resources
+## Resources
 [Human-level control through deep reinforcement learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)
 
 
