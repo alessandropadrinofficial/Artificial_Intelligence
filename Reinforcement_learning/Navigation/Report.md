@@ -24,7 +24,7 @@ The network is updated after every 1 episode
 The model was trained over 1000 episodes. 
 The trend of the average scores is illustrated in the plot below:
 
-![alt text](images/reward.png) 
+![alt text](reward.png) 
 
 ### Ideas for Future Work
 
