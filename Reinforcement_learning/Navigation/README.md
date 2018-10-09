@@ -33,7 +33,7 @@ Now, start a jupyter server in the DRLND-navigation repository's base directory:
 
 *jupyter notebook*
 
-Open the Navigation.ipynb notebook and follow the instructions.
+Open the Navigation_DQN.ipynb notebook and follow the instructions.
 
 ## Resources
 [Human-level control through deep reinforcement learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)
