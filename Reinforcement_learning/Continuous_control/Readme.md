@@ -22,3 +22,8 @@ We will sove option 2:
 The barrier for solving the second version of the environment take into account the presence of many agents. In particular, our agents must get an average score of +30 (over 100 consecutive episodes, and over all agents). Specifically,
 After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 20 (potentially different) scores. We then take the average of these 20 scores.
 This yields an average score for each episode (where the average is over all 20 agents).
+
+
+## Step 2: Download the Unity Environment
+For this project, if you have a Windows machine, you will not need to install Unity - this is because you will find the environment in the *Reacher_Windows_64* folder. 
+
