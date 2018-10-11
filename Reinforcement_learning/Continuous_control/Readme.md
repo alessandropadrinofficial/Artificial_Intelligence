@@ -27,3 +27,8 @@ This yields an average score for each episode (where the average is over all 20 
 ## Step 2: Download the Unity Environment
 For this project, if you have a Windows machine, you will not need to install Unity - this is because you will find the environment in the *Reacher_Windows_64* folder. 
 
+## Step 3: Follow the implementation in the continuous_control.ipynb
+
+## Resources 
+[DDPG] (https://arxiv.org/abs/1509.02971)
+
