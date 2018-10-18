@@ -15,20 +15,30 @@ algorithms. You can read more about ML-Agents by perusing the [GitHub repository
 
 There are two separate versions of the Unity environment for this project:
 
-*The first version contains a single agent*
-*The second version contains 20 identical agents, each with its own copy of the environment*
+- The first version contains a single agent
+- The second version contains 20 identical agents, each with its own copy of the environment
 
 We will sove option 2:
 The barrier for solving the second version of the environment take into account the presence of many agents. In particular, our agents must get an average score of +30 (over 100 consecutive episodes, and over all agents). Specifically,
 After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 20 (potentially different) scores. We then take the average of these 20 scores.
 This yields an average score for each episode (where the average is over all 20 agents).
 
+## Step 1: Pre-requisites
+
+- Make sure you having a working version of Anaconda on your system.
+- Clone this repo using git clone 
+- Create a new environment using *conda create env --name name_of_the_env python=3.6* and activate it
+- pip install requirements.txt
 
 ## Step 2: Download the Unity Environment
-For this project, if you have a Windows machine, you will not need to install Unity - this is because you will find the environment in the *Reacher_Windows_64* folder. 
+For this project, if you have a Windows machine, you will not need to install Unity - this is because you will find the environment in the *Reacher_Windows_64_20* folder. 
 
 ## Step 3: Follow the implementation in the continuous_control.ipynb
 
 ## Resources 
 [DDPG] (https://arxiv.org/abs/1509.02971)
+
+## Report
+See the [report](https://github.com/alessandropadrinofficial/Artificial_Intelligence/blob/master/Reinforcement_learning/Continuous_control/Report.md) for more details on the implementation.
+
 
