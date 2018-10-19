@@ -27,7 +27,9 @@ You can use *torch.nn.utils.clip_grad_norm(self.critic_local.parameters(), 1)* t
 
 
 ## Results
-Here the results for the training session in the multi agents environment (using gradient clipping)
+Here the [results](https://github.com/alessandropadrinofficial/Artificial_Intelligence/blob/master/Reinforcement_learning/Continuous_control/Training_20agents.txt) for the training session in the multi agents environment (using gradient clipping)
+
+[[https://github.com/alessandropadrinofficial/Artificial_Intelligence/blob/master/Reinforcement_learning/Continuous_control/Images/reward_reacher.png|alt=agents reward]]
 
 ## Ideas for future work
 
