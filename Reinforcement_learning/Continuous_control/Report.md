@@ -29,7 +29,7 @@ You can use *torch.nn.utils.clip_grad_norm(self.critic_local.parameters(), 1)* t
 ## Results
 The environment was solved in 181 episodes, 
 here you can check the reward plot over 100 episodes :
-![alt text](Images/average_reward_over_100_reacher.png) 
+![alt text](Images/average_reward_over100_reacher.png) 
 
 and here you can check the reward plot over the 181 episodes:
 ![alt text](Images/average_reward_over_all_reacher.png) 
