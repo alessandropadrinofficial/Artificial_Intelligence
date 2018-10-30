@@ -2,8 +2,8 @@ I chose to solve this environment with Deep Deterministic Policy Gradient (DDPG)
 It uses an actor-critic model, using value based methods to reduce the variance of policy based methods.
 
 ## Model
-- Actor is a MLP with just 1 hidden layer of 256 units and Relu activation. Actions are bounded from a Tanh activation
-- Critic is a 4 layers MLP (2 hidden layers) of 128-256-256 units with Leaky Relu activations. Action signal is fed to the critic network
+- Actor is a MLP with two hidden layers of 400 and 300 units and Relu activation. Actions are bounded from a Tanh activation
+- Critic is a MLP with two hidden layers of 400 and 300 units and Relu activations. Action signal is fed to the critic network
 at the second layer.
 
 ## Hyperparameters
@@ -27,9 +27,13 @@ You can use *torch.nn.utils.clip_grad_norm(self.critic_local.parameters(), 1)* t
 
 
 ## Results
-Here the [results](https://github.com/alessandropadrinofficial/Artificial_Intelligence/blob/master/Reinforcement_learning/Continuous_control/Training_20agents.txt) for the training session in the multi agents environment (using gradient clipping)
+The environment was solved in 181 episodes, 
+here you can check the reward plot over 100 episodes :
+![alt text](Images/average_reward_over_100_reacher.png) 
 
-![alt text](Images/reward_reacher.png) 
+and here you can check the reward plot over the 181 episodes:
+![alt text](Images/average_reward_over_all_reacher.png) 
+
 
 ## Ideas for future work
 
