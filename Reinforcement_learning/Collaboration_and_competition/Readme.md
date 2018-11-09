@@ -39,11 +39,13 @@ activate name_of_env
 Clone this repository (if you haven't already!) - you can use git clone - , and navigate to the python/ folder. 
 Then, install several dependencies.
 
-cd python
-pip install .
-Create an IPython kernel for the name_of_env environment.
-python -m ipykernel install --user --name name_of_env --display-name "name_of_env"
-Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+*cd python*
+*pip install .*
+
+##### Create an IPython kernel for the name_of_env environment 
+*python -m ipykernel install --user --name name_of_env --display-name "name_of_env"*
+
+Before running code in a notebook, change the kernel to match the name_of_env environment by using the drop-down Kernel menu.
 
 After you have followed the instructions above, open Tennis.ipynb and follow the instructions to train multiple agents
 to play tennis!
