@@ -21,9 +21,14 @@ This yields 2 (potentially different) scores. We then take the maximum of these 
 This yields a single score for each episode.
 The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
 
-If you are on a windows machine you won't need to download Unity, but you should make sure to place the folder Tennis_Windows_x86_64
-inside the collaboration_and_competition folder.
+For this project, you will not need to install Unity - the environment is already built for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
 
+Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
+Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
+
+Remember to put the folder you just downloaded inside the Collaboration_and_competition folder
 ## Dependencies
 To set up your python environment to run the code in this repository, follow the instructions below.
 
@@ -36,8 +41,8 @@ source activate name_of_env
 conda create --name name_of_env python=3.6 
 activate name_of_env
 
-Clone this repository (if you haven't already!) - you can use git clone - , and navigate to the python/ folder. 
-Then, install several dependencies.
+Clone this repository (if you haven't already!) - you can use git clone - , and navigate to the python/ folder inside the Collaboration_and_competition folder. 
+Then, install the dependencies.
 
 *cd python*
 *pip install .*
