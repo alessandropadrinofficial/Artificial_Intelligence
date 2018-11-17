@@ -1,7 +1,6 @@
 
 
-The algorithm i chose to solve this environment is Multi-Agent Deep Deterministic Policy Gradient (MADDPG), the multi-agent version of the
-DDPG.
+The algorithm i chose to solve this environment is Multi-Agent Deep Deterministic Policy Gradient (MADDPG), the multi-agent version of the DDPG.
 
 In MADDPG, each agent has it's own actor and it's own critic. Agents share a common experience replay buffer which contains tuples 
 with states and actions from all agents. 
@@ -46,7 +45,7 @@ The environment was solved in 2554 episodes, here you can check the reward plot 
 
 
 ## Ideas for Futrue Work
-Amend the various hyperparameters and network architecture to see whether to get the agent to solve this environment faster.
-Implement Prioritized experience replay
-Implement different algorithms such as PPO or D4PG
-Try to train an agent with the soccer environment! Refer to the Rainbow paper, understand how to combine improvements in deep reinforcement learning.
+- Try to change the various hyperparameters and network architecture to see whether to get the agent to solve this environment faster.
+- Implement Prioritized experience replay
+- Implement different algorithms such as PPO or D4PG
+- Try to train an agent with the soccer environment
