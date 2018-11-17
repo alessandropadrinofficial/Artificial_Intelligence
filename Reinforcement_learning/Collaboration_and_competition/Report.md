@@ -38,10 +38,12 @@ Update gradients every 2 steps vs every step.
 ## Results
 The environment was solved in 2554 episodes, here you can check the reward plot over 100 episodes and the reward plot over the 2554 episodes :
 
+- ![alt text](Images/average score 100 episodes.png)  
+
+- ![alt text](Images/average score all episodes.png) 
 
 
-![alt text](Images/average score 100 episodes.png) 
-![alt text](Images/average score all episodes.png) 
+
 
 ## Ideas for Futrue Work
 Amend the various hyperparameters and network architecture to see whether to get the agent to solve this environment faster.
