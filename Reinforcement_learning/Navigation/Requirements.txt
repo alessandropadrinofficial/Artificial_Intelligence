@@ -25,7 +25,7 @@ gast==0.2.0
 google-images-download==2.4.2
 grpcio==1.11.0
 gym==0.10.5
-html5lib==0.9999999
+html5lib==0.99999999
 hyperlink==18.0.0
 idna==2.7
 incremental==17.5.0
